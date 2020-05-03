@@ -1,0 +1,37 @@
+Flashcard code
+text based format
+User can make card sets and add 2 sided cards(A side / B side)
+
+imports: randint, os
+
+Menu: // bool loop
+    Revise
+    Add to Set
+    New set
+    Exit
+
+Revise:
+  1. Choose set created
+  2. assign each card a random number
+  3.go up these card from 1 to x
+  4. User can choose to press:
+    next - next card displayed
+    last - last card displayed
+    flip - shows other side of the card. A -> B / B -> A
+    exit - backs to main menu
+
+Add To Set:
+  1.User is shown all made sets
+  2.User chooses a set to add too
+  3.User is prompted to add the cards a side
+  4.User confirms input
+  5.User is prompted to add the cards B side
+  6.User confirms input
+  7.Returns to main menu
+New Set:
+  1.User is prompted to write in a name for set
+  2.Name is checked against current sets to find any crossover: if any return to 1
+  3.Set is made and added
+Exit:
+  1.User confirms
+  2.User will exit from the app
