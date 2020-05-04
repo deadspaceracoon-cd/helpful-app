@@ -1,5 +1,5 @@
 Flashcard code
-text based format
+Gui based - Pygame
 User can make card sets and add 2 sided cards(A side / B side)
 
 imports: randint, os
@@ -35,3 +35,9 @@ New Set:
 Exit:
   1.User confirms
   2.User will exit from the app
+
+order:
+  menu
+  add set
+  add cards
+  Revise
